@@ -1,0 +1,33 @@
+OLA Project
+
+
+Problem statement: OLA, transformed urban mobility by offering convenience and affordability to millions of users. 
+                   while doing this they generate vast amounts of data related to ride booking, driver avaibility, fare calculations, customer preferences, etc.
+                   however deriving actionable insights from this data remains a challenge. to enhance operational efficiency, improve customer satisfaction and
+                   optimize business strategies. this project focuses on analyzing OLA's ride-sharing data
+
+
+Use cases:  1. Identifying peak demand hours and optimizing driver allocation.2
+            2. 
+data model
+
+data cleaning
+1. handle missing values
+2. check for duplicates
+3. change dtypes
+4. check for outliers and distribution
+
+data validation
+
+data transformation
+
+Exploratory data analysis
+
+Dashboard
+
+Insights
+
+Conclusion
+
+
+Skills used
