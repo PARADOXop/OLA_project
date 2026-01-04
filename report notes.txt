@@ -17,14 +17,160 @@ data cleaning
 3. change dtypes
 4. check for outliers and distribution
 
-data validation
 
-data transformation
+data transformation:
+1. cancellation reason if ride was cancelled
+2. remove time from date column
+3. distance category 
 
 Exploratory data analysis
 
-Dashboard
+1. How does booking value vary across different vehicle types and distance categories?
 
+2. Are certain pickup–drop location pairs associated with higher booking values and ride volumes?
+
+3. What factors are most strongly associated with ride cancellations?
+
+4. Is there a relationship between ride distance and cancellation probability?
+
+5. How do vehicle turnaround time (V_TAT) and customer turnaround time (C_TAT) impact ride status?
+
+6. Does driver rating influence customer rating and ride completion?
+
+7. Are specific time periods associated with higher booking demand and cancellations?
+
+8. Which vehicle types are the most operationally efficient in terms of revenue, turnaround time, and ride completion?
+
+9. What patterns differentiate high-value repeat customers from low-value or churn-risk customers?
+
+
+Dashboard
+📊 DASHBOARD SHEET 1: Executive Overview
+
+Purpose: High-level business snapshot
+KPIs:
+
+Total Bookings
+
+Completed Rides
+
+Cancelled Rides
+
+Cancellation Rate (%)
+
+Total Booking Value
+
+Avg Booking Value
+
+Visuals:
+
+Ride Status Distribution (Completed vs Cancelled)
+
+Booking Trend by Date
+
+🚗 DASHBOARD SHEET 2: Demand & Time Analysis
+
+Purpose: Understand booking demand patterns
+Visuals:
+
+Bookings by Hour of Day
+
+Cancellations by Hour
+
+Peak vs Off-Peak Booking Comparison
+
+Bookings by Day
+
+📍 DASHBOARD SHEET 3: Location Insights
+
+Purpose: Pickup & drop performance
+Visuals:
+
+Top Pickup Locations by Bookings
+
+Top Drop Locations by Revenue
+
+High-Volume Pickup–Drop Routes
+
+Route-wise Cancellation Rate
+
+💰 DASHBOARD SHEET 4: Revenue & Distance Analysis
+
+Purpose: Revenue behavior
+Visuals:
+
+Booking Value Distribution
+
+Avg Booking Value by Distance Category
+
+Revenue Contribution by Distance Category
+
+Vehicle Type vs Booking Value
+
+🚘 DASHBOARD SHEET 5: Vehicle Performance
+
+Purpose: Fleet efficiency
+Visuals:
+
+Bookings by Vehicle Type
+
+Avg V_TAT by Vehicle Type
+
+Vehicle Type vs Cancellation Rate
+
+Revenue per Vehicle Type
+
+⏱️ DASHBOARD SHEET 6: Turnaround Time (TAT) Analysis
+
+Purpose: Operational efficiency
+Visuals:
+
+V_TAT Distribution
+
+C_TAT Distribution
+
+TAT vs Ride Status
+
+High TAT vs Cancellation Comparison
+
+⭐ DASHBOARD SHEET 7: Ratings Analysis
+
+Purpose: Service quality
+Visuals:
+
+Driver Ratings Distribution
+
+Customer Ratings Distribution
+
+Driver Rating vs Ride Completion
+
+Driver Rating vs Customer Rating
+
+👤 DASHBOARD SHEET 8: Customer Segmentation
+
+Purpose: Customer behavior & churn
+Visuals:
+
+Customer Segments (High-Value / Medium / Churn-Risk)
+
+Revenue by Customer Segment
+
+Avg Ratings by Segment
+
+Cancellation Rate by Segment
+
+❌ DASHBOARD SHEET 9: Cancellation Deep Dive
+
+Purpose: Reduce revenue leakage
+Visuals:
+
+Cancellations by Reason
+
+Cancellations by Vehicle Type
+
+Cancellations by Distance Category
+
+Revenue Lost Due to Cancellations
 Insights
 
 Conclusion
