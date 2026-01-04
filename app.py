@@ -16,9 +16,8 @@ df['Hour'] = pd.to_datetime(df['Time']).dt.hour
 df['ride_status'] = df['ride_status'].str.lower()
 
 # ---------------- FILTERS (TOP RIGHT, BIG) ----------------
-st.markdown("## 🔍 Filters")
-
-f1, f2, f3, f4 = st.columns([3, 3, 2, 2])
+st.markdown("## Filters", text_alignment='center')
+f1, f2 = st.columns([2, 2])
 
 with f1:
     vehicle_filter = st.multiselect(
@@ -33,7 +32,7 @@ with f2:
         df['ride_status'].unique(),
         default=df['ride_status'].unique()
     )
-
+f3, f4 = st.columns([1, 1])
 with f3:
     start_date = st.date_input("Start Date", df['Date'].min())
 
@@ -54,6 +53,8 @@ filtered_df = df[
 st.divider()
 
 # ---------------- KPIs ----------------
+
+st.markdown("# KPI", text_alignment='center')
 total = len(filtered_df)
 completed = (filtered_df['ride_status'] == 'complete').sum()
 incomplete = (filtered_df['ride_status'] == 'incomplete').sum()
