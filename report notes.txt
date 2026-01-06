@@ -43,137 +43,59 @@ Exploratory data analysis
 
 9. What patterns differentiate high-value repeat customers from low-value or churn-risk customers?
 
-
-Dashboard
-📊 DASHBOARD SHEET 1: Executive Overview
-
-Purpose: High-level business snapshot
-KPIs:
-
-Total Bookings
-
-Completed Rides
-
-Cancelled Rides
-
-Cancellation Rate (%)
-
-Total Booking Value
-
-Avg Booking Value
-
-Visuals:
-
-Ride Status Distribution (Completed vs Cancelled)
-
-Booking Trend by Date
-
-🚗 DASHBOARD SHEET 2: Demand & Time Analysis
-
-Purpose: Understand booking demand patterns
-Visuals:
-
-Bookings by Hour of Day
-
-Cancellations by Hour
-
-Peak vs Off-Peak Booking Comparison
-
-Bookings by Day
-
-📍 DASHBOARD SHEET 3: Location Insights
-
-Purpose: Pickup & drop performance
-Visuals:
-
-Top Pickup Locations by Bookings
-
-Top Drop Locations by Revenue
-
-High-Volume Pickup–Drop Routes
-
-Route-wise Cancellation Rate
-
-💰 DASHBOARD SHEET 4: Revenue & Distance Analysis
-
-Purpose: Revenue behavior
-Visuals:
-
-Booking Value Distribution
-
-Avg Booking Value by Distance Category
-
-Revenue Contribution by Distance Category
-
-Vehicle Type vs Booking Value
-
-🚘 DASHBOARD SHEET 5: Vehicle Performance
-
-Purpose: Fleet efficiency
-Visuals:
-
-Bookings by Vehicle Type
-
-Avg V_TAT by Vehicle Type
-
-Vehicle Type vs Cancellation Rate
-
-Revenue per Vehicle Type
-
-⏱️ DASHBOARD SHEET 6: Turnaround Time (TAT) Analysis
-
-Purpose: Operational efficiency
-Visuals:
-
-V_TAT Distribution
-
-C_TAT Distribution
-
-TAT vs Ride Status
-
-High TAT vs Cancellation Comparison
-
-⭐ DASHBOARD SHEET 7: Ratings Analysis
-
-Purpose: Service quality
-Visuals:
-
-Driver Ratings Distribution
-
-Customer Ratings Distribution
-
-Driver Rating vs Ride Completion
-
-Driver Rating vs Customer Rating
-
-👤 DASHBOARD SHEET 8: Customer Segmentation
-
-Purpose: Customer behavior & churn
-Visuals:
-
-Customer Segments (High-Value / Medium / Churn-Risk)
-
-Revenue by Customer Segment
-
-Avg Ratings by Segment
-
-Cancellation Rate by Segment
-
-❌ DASHBOARD SHEET 9: Cancellation Deep Dive
-
-Purpose: Reduce revenue leakage
-Visuals:
-
-Cancellations by Reason
-
-Cancellations by Vehicle Type
-
-Cancellations by Distance Category
-
-Revenue Lost Due to Cancellations
 Insights
 
-Conclusion
+1️⃣ Cancellation Crisis (41.7%)
+
+Insight: Nearly 2 out of 5 bookings are incomplete, driving significant revenue leakage and poor customer experience.
+Action & Impact: Set completion-rate OKRs and real-time cancellation tracking to unlock immediate revenue gains and improve customer trust.
+
+2️⃣ Short-Distance Rides Are Broken
+
+Insight: Short-distance rides face ~73% cancellations, far higher than medium and long trips due to poor driver incentives.
+Action & Impact: Introduce minimum fares, short-trip incentives, and ride batching to reduce cancellations and improve driver acceptance.
+
+3️⃣ Driver Availability Is the Core Issue
+
+Insight: “Driver Not Found” is the leading cancellation reason, indicating a persistent supply-demand mismatch.
+Action & Impact: Use predictive driver positioning and dynamic incentives to improve match rates and reduce customer wait times.
+
+4️⃣ Cancellations Are Systemic
+
+Insight: Uniform cancellation rates across vehicle types, hours, and days point to a platform-level structural problem.
+Action & Impact: Redesign matching logic and apply reliability-based incentives to achieve consistent, platform-wide cancellation reduction.
+
+5️⃣ Revenue Exists but Execution Is Inefficient
+
+Insight: ₹565M in booking value is generated despite high cancellations, highlighting large unrealized revenue potential.
+Action & Impact: Shift focus to fulfillment optimization and cancellation-loss tracking to increase realized revenue without extra marketing spend.
+
+6️⃣ Ratings Don’t Prevent Cancellations
+
+Insight: High driver and customer ratings do not reduce cancellations since failures occur before ride execution.
+Action & Impact: Focus on pre-ride levers (availability, pricing, ETA accuracy) while using ratings only for post-ride quality control.
+
+Conclusion:
+The platform’s key challenge is operational inefficiency rather than lack of demand, with a high 41.7% cancellation rate driven by systemic supply-side and incentive issues—especially
+for short-distance rides. Improving driver availability, pricing alignment, and matching logic can significantly increase ride completion and unlock revenue growth without additional 
+demand acquisition.
 
 
-Skills used
+Skills & Tools Used
+
+Programming & Data Analysis: Python, Pandas, NumPy
+
+Data Visualization: Matplotlib, Seaborn, Power BI
+
+Database & Data Engineering: MS SQL Server, SQLAlchemy
+
+Machine Learning & Analytics: Scikit-learn
+
+Version Control & Development: Git, Visual Studio Code
+
+Resume bulletpoints:
+Analyzed 103K+ ride bookings and identified a 41.7% cancellation rate; proposed completion-focused OKRs and matching improvements projected to reduce cancellations by 8–12%, unlocking significant incremental revenue.
+
+Diagnosed short-distance rides (~73% cancellations) and driver unavailability as primary failure points; recommended minimum fares, driver incentives, and predictive positioning expected to improve short-ride completion by 15–20%.
+
+Quantified ₹565M in booking value with high unrealized revenue, estimating that a 5–10% improvement in ride completion could recover ₹28–56M in additional revenue without increasing demand.
