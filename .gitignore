@@ -50,7 +50,6 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-Dataset/
 report notes.txt
 # Translations
 *.mo
@@ -207,4 +206,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 report notes.txt
+report notes.txt
+Dataset/OLA RIDE.pdf
+Dataset/OLA_DataSet.xlsx
 report notes.txt
