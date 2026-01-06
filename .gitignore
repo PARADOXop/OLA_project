@@ -205,8 +205,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-report notes.txt
-report notes.txt
-Dataset/OLA RIDE.pdf
-Dataset/OLA_DataSet.xlsx
+dataset/OLA RIDE.pdf
+dataset/OLA_DataSet.xlsx
 report notes.txt
