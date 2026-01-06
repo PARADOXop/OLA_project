@@ -78,7 +78,7 @@ with c1:
     fig = px.pie(
         filtered_df,
         names='ride_status',
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -89,7 +89,7 @@ with c2:
         hourly,
         x='Hour',
         y='Bookings',
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -103,7 +103,7 @@ with c1:
         dist,
         x='distance_cat',
         y='Booking_Value',
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -114,7 +114,7 @@ with c2:
         veh,
         x='Vehicle_Type',
         y='Booking_Value',
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -127,7 +127,7 @@ with c1:
         filtered_df,
         x='V_TAT',
         nbins=25,
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -137,7 +137,7 @@ with c2:
         filtered_df,
         x='C_TAT',
         nbins=25,
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -150,7 +150,7 @@ with c1:
         filtered_df,
         x='Driver_Ratings',
         nbins=10,
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -160,7 +160,7 @@ with c2:
         filtered_df,
         x='Customer_Rating',
         nbins=10,
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -176,7 +176,7 @@ if not reason_counts.empty:
         reason_counts,
         x='Reason',
         y='Count',
-        height=200
+        height=100
     )
     st.plotly_chart(fig, use_container_width=True)
 
